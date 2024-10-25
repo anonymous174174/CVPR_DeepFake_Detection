@@ -35,7 +35,7 @@ del NPRmodel.layer3, NPRmodel.layer4, NPRmodel.fc
 @st.cache_data
 #@st.cache(allow_output_mutation=True,suppress_st_warning=True)
 def load_model():
-    NPR_url = "C:\\Users\\darth\\Desktop\\CV code Demo\\NPR-DeepfakeDetection\\model_epoch_last_3090.pth"#'https://raw.githubusercontent.com/chuangchuangtan/NPR-DeepfakeDetection/main/model_epoch_last_3090.pth'
+    NPR_url = "NPR-DeepfakeDetection\\model_epoch_last_3090.pth"#'https://raw.githubusercontent.com/chuangchuangtan/NPR-DeepfakeDetection/main/model_epoch_last_3090.pth'
     state_dict = torch.hub.load_state_dict_from_url(NPR_url, map_location='cpu')
     NPRmodel.load_state_dict(state_dict, strict=True)
     NPRmodel.eval()
