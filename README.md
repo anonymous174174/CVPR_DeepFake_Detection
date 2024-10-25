@@ -7,13 +7,13 @@ This repository contains a demo of a DeepFake detection model based on the resea
 ## Requirements
 
 - Python 3.8 or later
-- PyTorch 1.2 or later
-- Torchvision 0.4 or later
-- Streamlit 0.73 or later
-- OpenCV 4.5 or later
-- Pillow 8.2 or later
-- Scikit-learn 0.24 or later
-- Scipy 1.6 or later
+- PyTorch 2.4.1
+- Torchvision 0.19.1
+- Streamlit 1.38.0
+- OpenCV 4.10.0.84
+- Pillow 10.4.0
+- Numpy 2.1.1
+
 
 ## Installation
 
