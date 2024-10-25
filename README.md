@@ -1,2 +1,42 @@
-# CVPR_DeepFake_Detection
-CV Project Code demo
+# CVPR DeepFake Detection
+
+## Introduction
+
+This repository contains a demo of a DeepFake detection model based on the research paper [link](https://arxiv.org/abs/2312.10461#).
+
+## Requirements
+
+- Python 3.8 or later
+- PyTorch 1.2 or later
+- Torchvision 0.4 or later
+- Streamlit 0.73 or later
+- OpenCV 4.5 or later
+- Pillow 8.2 or later
+- Scikit-learn 0.24 or later
+- Scipy 1.6 or later
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/DeepFake_Detection.git
+   ```
+
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Navigate to the repository directory:
+   ```bash
+   cd CVPR_DeepFake_Detection
+   ```
+
+4. Run the model:
+   ```bash
+   streamlit run DeepFake_Detection.py
+   ```
+
+5. Open a web browser and go to [http://localhost:8501](http://localhost:8501) to access the Streamlit app.
+
+6. Upload an image or enter an image URL to test the model. The model will predict whether the image is real or fake and display the result.
