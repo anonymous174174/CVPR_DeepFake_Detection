@@ -19,7 +19,7 @@ This repository contains a demo of a DeepFake detection model based on the resea
 
 1. Clone the repository:
    ```bash
-   [git clone https://github.com/your-username/DeepFake_Detection.git](https://github.com/anonymous174174/CVPR_DeepFake_Detection.git)
+   git clone https://github.com/anonymous174174/CVPR_DeepFake_Detection.git
    ```
 
 2. Install the required libraries:
