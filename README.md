@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a demo of a DeepFake detection model based on the research paper [link](https://arxiv.org/abs/2312.10461#).
+This repository contains a demo of a DeepFake detection model based on the research paper and is not its official implementation [link](https://arxiv.org/abs/2312.10461#).
 
 ## Requirements
 
